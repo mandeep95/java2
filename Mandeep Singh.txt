@@ -1,0 +1,181 @@
+
+////Q4. WAP as shown below using Switch...........
+
+public class Switch {
+
+	public static void main(String[] args) {
+
+		String rollno = "546";		
+		
+		switch(rollno) {
+		
+		case"579":
+		System.out.println("579=Sonu’s Rollno");
+		break;
+		
+		case"546":
+			System.out.println("546=Monu’s Rollno");
+			break;
+			
+		case"553":
+			System.out.println("553=Manu’s Rollno");
+			break;
+			
+		case"544":
+			System.out.println("544=Meenu’s Rollno");
+			break;
+			
+		case"516":
+			System.out.println("516=Meena’s Rollno");
+			break;
+			
+		default:
+		
+			System.out.println(" Message Not Allowed");
+		
+		
+		}
+		
+	}
+
+}
+
+
+
+
+////Q1. WAP which asks the user to input a number and tell whether the number is even or odd.
+package deep;
+
+	import java .util.*;
+
+	public class Switch {
+	
+    
+ public static void main(String args[]) {
+
+       Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number : ");
+		int a = sc.nextInt();
+		int b= 2;
+ 
+  if (a/b) {   
+
+      System.out.println("this number is even " + b);
+    }
+else {
+    
+    System.out.println("this number is odd");
+}    
+
+	 }
+	}
+
+////Q2. WAP which asks the user to input a number and tell whether the number is greater than
+55 or not?
+package deep;
+
+	import java .util.*;
+
+	public class Switch {
+		
+	
+	 public static void main(String args[]) {
+
+	       Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the number : ");
+			int a = sc.nextInt();
+			int b= 55;
+
+	  if (a>b){   
+
+	      System.out.println("this number is is greater than 55");
+	    }
+	else {
+	    
+	    System.out.println("this number is not greater than 55 ");
+	}    
+	 }
+	}
+
+
+
+
+
+
+////Q3 .Take 2 integer inputs from the user and print if both numbers are equal or not, if they are
+not equal, print the number which is greater.
+
+public class Class {
+    
+ public static void main(String args[]) {
+	int x = 20;
+    int y = 18;
+if (x == y) {
+  System.out.println("x is equal y");
+}
+
+else {
+    System.out.println("x is not equal y");
+}
+}
+}
+
+
+
+//////Q8. Create following pattern using loop:
+10101
+01010
+10101
+public class Switch {
+		public static void main(String []args) {
+	for(int i=1;i<=3;i++) {
+			for(int j=1;j<=5;j++) {
+				if(i%2==1) {
+				if(j%2 == 1) {
+					System.out.print("1 ");
+				}
+				else {
+					System.out.print("0 ");
+				}
+				}
+				
+				else {
+					if(j%2 == 1) {
+					System.out.print("0 ");
+				}
+				else {
+					System.out.print("1 ");
+				}
+				}
+			}
+			System.out.println();
+		}
+		}
+	}
+
+
+//////Q6. WAP ask user to input a number and perform a loop upto that number
+package deep;
+
+
+import java .util.*;
+
+public class Switch2 {
+		public static void main(String []args) {
+			 Scanner sc = new Scanner(System.in);
+				System.out.println("Enter the number : ");
+				int a = sc.nextInt();
+			
+			
+		
+	for(int i=1;i<=a;i++) {
+		System.out.println("" + i);
+	}
+	
+	
+	
+		}
+		}
+
+
+
